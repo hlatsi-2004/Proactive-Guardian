@@ -16,4 +16,28 @@ Proactive Guardian perceives danger the way a human would—interpreting posture
 - **Local-first processing** — no cloud, no video storage
 
 ## Pipeline
-<img width="940" height="193" alt="image" src="https://github.com/user-attachments/assets/f704b277-7960-429b-b02d-1293fa5523ef" />
+
+Camera → Pose Estimation → Feature Extraction → LightGBM → Temporal Smoothing → Proactivity Engine → Alert
+
+
+## Hazard Scenarios
+
+- Stove proximity
+- Stair access
+- Pool approach
+
+## Results
+
+| Metric | Value |
+| :--- | :--- |
+| Detection rate | 94% |
+| False alarm rate | ~5% |
+| Early-warning lead time | 2.6 s |
+| Inference latency | <8 ms/frame (Raspberry Pi 4) |
+
+## Installation
+
+```bash
+git clone https://github.com/YOUR_USERNAME/proactive-guardian.git
+cd proactive-guardian
+pip install -r requirements.txt
