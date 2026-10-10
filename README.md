@@ -35,4 +35,11 @@ Camera → Pose Estimation → Feature Extraction → LightGBM → Temporal Smoo
 | Early-warning lead time | 2.6 s |
 | Inference latency | <8 ms/frame (Raspberry Pi 4) |
 
+## Author
 
+Mamorobela Mahlatsi Suprise (202400251)
+Sol Plaatje University
+
+## Supervisor
+
+Dr. F. Matsebula
