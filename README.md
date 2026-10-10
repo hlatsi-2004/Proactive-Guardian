@@ -35,9 +35,4 @@ Camera → Pose Estimation → Feature Extraction → LightGBM → Temporal Smoo
 | Early-warning lead time | 2.6 s |
 | Inference latency | <8 ms/frame (Raspberry Pi 4) |
 
-## Installation
 
-```bash
-git clone https://github.com/YOUR_USERNAME/proactive-guardian.git
-cd proactive-guardian
-pip install -r requirements.txt
