@@ -8,17 +8,16 @@ Proactive Guardian perceives danger the way a human would—interpreting posture
 
 ## Features
 
-- **Pose estimation** using MediaPipe (17 keypoints)
-- **8-feature vector** capturing distance, velocity, posture, and context
-- **LightGBM classifier** predicting risk levels L1–L5
-- **Temporal smoothing** (5-frame majority vote + 1.5s hysteresis)
-- **Graded alerts**: Notify / Suggest / Intervene
-- **Local-first processing** — no cloud, no video storage
+- Pose estimation using MediaPipe (17 keypoints)
+- 8-feature vector capturing distance, velocity, posture, and context
+- LightGBM classifier predicting risk levels L1–L5
+- Temporal smoothing (5-frame majority vote + 1.5s hysteresis)
+- Graded alerts: Notify / Suggest / Intervene
+- Local-first processing — no cloud, no video storage
 
 ## Pipeline
 
 Camera → Pose Estimation → Feature Extraction → LightGBM → Temporal Smoothing → Proactivity Engine → Alert
-
 
 ## Hazard Scenarios
 
@@ -35,11 +34,26 @@ Camera → Pose Estimation → Feature Extraction → LightGBM → Temporal Smoo
 | Early-warning lead time | 2.6 s |
 | Inference latency | <8 ms/frame (Raspberry Pi 4) |
 
+## Installation
+
+    git clone https://github.com/hlatsi-2004/Proactive-Guardian.git
+    cd Proactive-Guardian
+    pip install -r requirements.txt
+
+## Usage
+
+    python src/model/predict.py --camera 0
+
 ## Author
 
-Mamorobela Mahlatsi Suprise (202400251)
-Sol Plaatje University
+**Mamorobela Mahlatsi Suprise**
+Student ID: 202400251
+Sol Plaatje University — Department of Computer Science & Information Technology
 
 ## Supervisor
 
 Dr. F. Matsebula
+
+## License
+
+MIT License
