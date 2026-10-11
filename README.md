@@ -37,7 +37,10 @@ Camera → Pose → Features → LightGBM → Smoothing → Alert
 
 Mamorobela Mahlatsi Suprise (202400251)
 Sol Plaatje University
-Supervisor: Dr. F. Matsebula
+
+ ## Supervisor
+ 
+ Dr. F. Matsebula
 
 ## License
 
