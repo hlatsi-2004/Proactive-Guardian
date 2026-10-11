@@ -3,9 +3,6 @@
 
 A context-aware safety system that predicts child hazards before they happen.
 
-## Live Demo
-
-**[Click here to try the demo](https://hlatsi-2004.github.io/Proactive-Guardian/)**
 
 ## What It Does
 
