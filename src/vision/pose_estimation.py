@@ -1,6 +1,4 @@
-
-
-```python
+python
 """
 Pose estimation module for Proactive Guardian.
 Uses MediaPipe to extract 17 keypoints from a live camera feed.
