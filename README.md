@@ -120,11 +120,15 @@ The goal is bigger than a baby monitor. It's a **guardian** — for every family
 ## Author
 
 **Mamorobela Mahlatsi Suprise**
-**Student ID: 202400251**
-**Sol Plaatje University**
-**Department of Computer Science & Information Technology**
+
+Student ID: 202400251
+
+Department of Computer Science & Information Technology
+
+Sol Plaatje University
 
 ---
+
 
 ## License
 
